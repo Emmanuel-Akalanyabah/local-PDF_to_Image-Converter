@@ -19,8 +19,8 @@ Cross-platform support (Windows, Mac, Linux)
 Threaded processing for faster conversions
 
 **Requirements**
-Python 3.6+
 
+Python 3.6+
 Jupyter Notebook
 
 Poppler utilities (see installation instructions below)
