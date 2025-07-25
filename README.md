@@ -70,6 +70,7 @@ Run the cell to start conversion
 **Example Configuration**
 
 **Configuration section - SET THESE VALUES BEFORE RUNNING**
+
 PDF_PATH = r"C:\Users\huy\Desktop\UCC CDRSRM Certificate EMMANUEL AKALANYABAH.pdf"
 POPPLER_PATH = r"C:\Users\huy\Desktop\poppler-24.08.0\Library\bin"  # Windows users
 
