@@ -102,13 +102,16 @@ Files are named: [pdfname]_page_[number].[format]
 Shows completion message with output location
 
 **Troubleshooting**
+
 Common Issues
 Poppler not found:
 
 **Windows:** 
+
 Ensure correct path in POPPLER_PATH
 
 **Linux/Mac:**
+
 Verify installation with pdftoppm -h
 
 **File not found:**
@@ -130,6 +133,7 @@ Use only 'jpeg', 'png', or 'tiff'
 Format must be in lowercase
 
 **Increasing Performance**
+
 For large PDFs, increase thread count:
 
 python
@@ -139,6 +143,7 @@ For better quality, increase DPI (300-600)
 For faster processing, use JPEG format instead of PNG
 
 **Output Structure**
+
 After conversion, you'll find images organized as:
 
 text
