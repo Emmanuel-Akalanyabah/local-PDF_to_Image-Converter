@@ -4,6 +4,7 @@ Convert loaded PDF to an image locally on your PC
 A user-friendly PDF to image converter designed specifically for Jupyter Notebook environments. This tool converts PDF files into high-quality images with real-time progress display and preview capabilities.
 
 **Features**
+
 Convert PDF pages to JPEG, PNG, or TIFF formats
 
 Real-time progress bar and status updates
@@ -34,6 +35,7 @@ pip install pdf2image pillow
 **Windows:**
 
 Download Poppler from poppler-windows
+
 https://github.com/oschwartz10612/poppler-windows/releases/
 
 Extract the ZIP file
@@ -41,14 +43,16 @@ Extract the ZIP file
 Set the path to the bin directory in the configuration section
 
 **Linux (Ubuntu/Debian):**
-bash
+
+
 sudo apt-get install poppler-utils
 
 **macOS**:
-bash
+
 brew install poppler
 
 **Usage**
+
 Copy the entire code block into a Jupyter Notebook cell
 
 Configure the settings in the configuration section:
@@ -64,7 +68,7 @@ fmt: Output format ('jpeg', 'png', or 'tiff')
 Run the cell to start conversion
 
 **Example Configuration**
-python
+
 **Configuration section - SET THESE VALUES BEFORE RUNNING**
 PDF_PATH = r"C:\Users\huy\Desktop\UCC CDRSRM Certificate EMMANUEL AKALANYABAH.pdf"
 POPPLER_PATH = r"C:\Users\huy\Desktop\poppler-24.08.0\Library\bin"  # Windows users
