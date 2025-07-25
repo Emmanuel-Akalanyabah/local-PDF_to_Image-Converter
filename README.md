@@ -148,8 +148,11 @@ After conversion, you'll find images organized as:
 
 text
 pdf_images_output/
+
 ├── yourfile_page_1.png
+
 ├── yourfile_page_2.png
+
 └── yourfile_page_3.png
 
 
